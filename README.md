@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Lehel721
 - 👀 I’m interested in learning coding
-- 🌱 I’m currently learning c programming and python
+
 
 
 <!---
