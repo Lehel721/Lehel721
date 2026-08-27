@@ -31,6 +31,11 @@ Ask natural language questions about any public GitHub repository without clonin
 
 `Python` `RAG` `ChromaDB` `NetworkX` `Tree-sitter` `Isolation Forest` `Claude API`
 
+### [wiki-rank-search](https://github.com/Lehel721/search-rank)
+Two-stage semantic search engine over 100k Wikipedia passages. Built a qrels-first corpus pipeline guaranteeing full label coverage from Google's Natural Questions dataset (via BEIR), FAISS dense retrieval with hard negative mining, and a LightGBM LambdaRank reranker trained on 21,461 labeled pairs. Evaluated with a proper train/test split by query, achieving an MRR of 0.90 on held-out queries and 0.81 on the subset where raw retrieval alone missed the correct passage, validated on Google Colab after local hardware constraints required optimizing the pipeline for memory efficiency.
+
+`Python` `FAISS` `LightGBM` `fastembed` `scikit-learn` 
+
 ##  Reach Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lehel-dsilva9511/)
